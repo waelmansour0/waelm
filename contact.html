@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wael Mansour</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/components/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="menu-links">Home</a></li>
+                <li><a href="#" class="menu-links">About</a></li>
+                <li><a href="single-work.html" class="menu-links">Work</a></li>
+                <li><a href="contact.html" class="menu-links">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="contact-section">
+        <div class="contact-title">
+            <h1>Like what you see?</h1>
+            <p>Contact me for a quote, help or just to say hi!</p>
+        </div>
+        <div class="contact-options">
+            <div class="options-row">
+                <a class="contact-option">
+                    <img src="assets/icons/location.svg" class="contact-icon">
+                    <p class="contact-detail">Downtown Dubai, UAE</p>
+                </a>
+                <a class="contact-option active" href="tel:+971504669148">
+                    <img src="assets/icons/call.svg" class="contact-icon">
+                    <p class="contact-detail">+971 50 466 9148</p>
+                </a>
+                <a class="contact-option desk" href="mailto:wael.mansour@live.com?subject=I would like to...">
+                    <img src="assets/icons/email.svg" class="contact-icon">
+                    <p class="contact-detail">wael.mansour@live.com</p>
+                </a>
+            </div>
+            <div class="options-row mob">
+                <a class="contact-option" href="mailto:wael.mansour@live.com?subject=I would like to...">
+                    <img src="assets/icons/email.svg" class="contact-icon">
+                    <p class="contact-detail">wael.mansour@live.com</p>
+                </a>
+                <a></a>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="w1">
+                <div class="contact-fields">
+                    <div class="w1">
+                        <label for="fullname">Your Name</label>
+                        <input type="text" style="text-transform: capitalize;" name="fullname" id="fullname">
+                        <label for="email">Mail</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" rows="7"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button onclick="sendEmail()">Send Message</button>
+                </div>
+            </div>
+            <div class="divider-container desk">
+                <hr>
+                <p>or</p>
+                <hr>
+            </div>
+            <div class="qr-container desk">
+                <img class="contact-qr" src='https://chart.googleapis.com/chart?cht=qr&chl=BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3AMansour%3BWael%0AFN%3AWael%20Mansour%0AORG%3AWebsite%20Developer%0ATITLE%3A%0AADR%3A%3B%3B%3BDubai%3B%3B%3BUnited%20Arab%20Emirates%0ATEL%3BWORK%3BVOICE%3A%0ATEL%3BCELL%3A%2B971504669148%0ATEL%3BFAX%3A%0AEMAIL%3BWORK%3BINTERNET%3Awael.mansour%40live.com%0AURL%3Ahttps%3A%2F%2Fwww.wael.com%0AEND%3AVCARD%0A&chs=180x180&choe=UTF-8&chld=L|2' alt=''>
+                <p>Scan me</p>
+                <!-- <img class="project-img" src="assets/images/MotorradDotCom.jpg" alt=""> -->
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="footer-container">
+            <div>
+                <h1><a href="">wael.mansour@live.com</a></h1>
+                <h3>Lorem ipsum dolor sit amet.</h2>
+            </div>
+        </div>
+        <img src="assets/images/shadowHand.png" data-speed="1" class="handShadow layer">
+        <div class="ft-copyright">
+            <p>2021© Wael Mansour. All rights reserved</p>
+        </div>
+        <div class="flower-duck">
+            <img src="assets/images/floral19.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-4rem; transform:rotate(-37deg) scale(1,1)">
+            <img src="assets/images/floral16.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(0deg) scale(1,1)">
+            <img src="assets/images/floral21.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(0deg) scale(1,1)">
+            <img src="assets/images/floral23.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(18deg) scale(1,1)">
+            <img src="assets/images/floral17.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(0deg) scale(1,1)">
+            <img src="assets/images/floral26.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(18deg) scale(1,1)">
+            <img src="assets/images/floral22.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:0rem; transform:rotate(0deg) scale(1,1)">
+            <img src="assets/images/floral27.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(18deg) scale(1,1)">
+            <img src="assets/images/floral28.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(-31deg) scale(-1,1)">
+            <img src="assets/images/floral29.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; margin-right:-1rem; transform:rotate(0deg) scale(1,1)">
+            <img src="assets/images/floral30.png" data-speed="1"   class="layer" scale="1" rotation="188" style="top: -4rem; left: 0rem; transform:rotate(0deg) scale(1,1)">
+        </div>
+    </section>
+    <script src="assets/js/function.js"></script>
+</body>
+</html>

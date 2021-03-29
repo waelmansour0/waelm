@@ -1,0 +1,30 @@
+.menu-container {
+    position: absolute;
+    right: 0; top: 0;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    margin: 2rem 3rem 0;
+}
+
+.menu-container li{
+    display: inline;
+    margin: 0 2rem;
+    transition: .5s ease-in-out;
+    font-family: 'Quakiez';
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.menu-links {
+    color: #3e344c;
+    font-size: 1.5rem;
+    transition: .3s;
+    
+}
+
+.menu-links:hover {
+    color: #c61053;
+}

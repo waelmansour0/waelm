@@ -1,0 +1,359 @@
+/* IPAD PRO 12.9 SIZE */
+
+@media (max-width:1024px) {
+    .fullpage-header img {
+        height: 20%;
+    }
+    .services-img {
+        height: 20%;
+    }
+    .shadow-cover {
+        width: 50%;
+    }
+    .shadow-cover h3 {
+        font-size: .9rem;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .service-item img {
+        height: 45%;
+    }
+    .shadow-corner {
+        width: 57%;
+    }
+
+
+    .project-ink-blot {
+        left: 0rem;
+        right: 0rem;
+        margin: auto;
+
+    }
+    .services-img1 {
+        top: 10rem;
+        height: 30%;
+    }
+    .services-img2 {
+        bottom: 11rem;
+        height: 30%;
+    }
+    .services-img3 {
+        bottom: -2rem; right: 0rem;
+        height: 30%;
+    }
+    .project-img {
+        width: 82%;
+        position: relative;
+    }
+    .project-container {
+        flex-direction: column-reverse;
+    }
+    .project-container h1 {
+        margin: 0;
+        margin-bottom: 2.5rem;
+    }
+    .project-description {
+        width: 100%;
+    }
+    
+    .featured {
+        margin-bottom: 0rem;
+    }
+    .mob {
+        display: inline;
+    }
+    .desk {
+        display: none;
+    }
+
+    .cta-section {
+        margin-top: 0;
+        height: 55vh;
+    }
+    .background {
+        margin-top: 0;
+    }
+    .background h1 {
+        top: 17rem;
+    }
+    .background .cta-water, .cta-cloud {
+        width: 80%;
+    }
+    .cta-butterfly1 {
+        right: 7rem;
+        top: 13rem;
+    }
+    .cta-butterfly2 {
+        left: 14rem;
+        top: 10rem;
+    }
+
+
+    .footer-section {
+        height: 20vh;
+    }
+}
+
+/* IPAD PRO 10.5 SIZE */
+@media (max-width:835px) {
+    .menu-container li {
+        margin: 0 1rem;
+    }
+    .shadow-cover h3 {
+        font-size: .8rem;
+    }
+    .cta-butterfly2 {
+        left: 5rem;
+        top: 8rem;
+    }
+    .background h1 {
+        top: 14rem;
+    }
+    .flower-duck {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/* IPAD MINI SIZE */
+@media (max-width:768px) {
+    .menu-container li {
+        margin: 0 .7rem;
+    }
+    .services-section {
+        text-align: center;
+        padding-top: 4rem;
+        height: auto;
+    }
+    .shadow-cover h3 {
+        font-size: .75rem;
+    }
+    .services-container {
+        margin: 4rem 2rem;
+    }
+    .services-img1 {
+        top: 10rem;
+        height: 15%;
+    }
+    .services-img2 {
+        bottom: 11rem;
+        height: 15%;
+    }
+    .services-img3 {
+        bottom: -2rem; right: 0rem;
+        height: 15%;
+    }
+    .services-hero {
+        padding: 1rem 0;
+    }
+    .services-hero h1 {
+        font-size: 1.5rem;
+    }
+    .cta-butterfly1 {
+        right: 6rem;
+        top: 10rem;
+    }
+    .cta-butterfly2 {
+        top: 5rem;
+    }
+    .footer-section {
+        margin-top: 4rem;
+    }
+    .flower-duck {
+        top: -5.8rem;
+    }
+    .flower-duck img {
+        height: 6rem;
+    }
+}
+
+/* IPHONE XS MAX SIZE */
+@media (max-width:415px) {
+    .projects-section {
+        text-align: center;
+    }
+    .menu {
+        margin: 4rem 1rem 0rem 5rem;
+    }
+    .menu ul {
+        padding: 0;
+        margin-top: 0;
+    }
+    .menu-container li {
+        margin: 0 .3rem;
+    }
+    .menu-links {
+        font-size: 1rem;
+    }
+    .headerImg2 {
+        top: 3rem;
+    }
+    .shadowLeaf {
+        height: 85%;
+        left: -15%;
+    }
+    .name-container {
+        margin-top: 4rem;
+    }
+    .name-container h1 {
+        margin: 0;
+        font-size: 3rem;
+    }
+    .name-container h3 {
+        font-size: 3rem;
+        top: -4.5rem;
+    }
+    .name-dot {
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .name-container p {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+    .name-container a {
+        font-size: .85rem;
+    }
+    .services-hero {
+        padding: 5rem 0;
+    }
+    .services-hero h1 {
+        font-size: 1.3rem;
+    }
+    .services-container {
+        margin: 5rem 0;
+    }
+    .services-img1 {
+        top: 10rem;
+        height: 15%;
+    }
+    .services-img2 {
+        bottom: 11rem;
+        height: 15%;
+    }
+    .services-img3 {
+        bottom: -2rem; right: 0rem;
+        height: 15%;
+    }
+    .shadow-cover {
+        height: 3rem;
+    }
+    .shadow-cover h3 {
+        font-size: .7rem;
+    }
+    .background .cta-water, .cta-cloud {
+        width: 100%;
+    }
+    .cta-butterfly1, .cta-butterfly2 {
+        width: 8rem;
+        height: 6rem;
+        -webkit-animation: iPhoneButterfly 2s infinite ease-in-out;
+        -moz-animation:    iPhoneButterfly 2s infinite ease-in-out;
+        -o-animation:      iPhoneButterfly 2s infinite ease-in-out;
+        animation:         iPhoneButterfly 2s infinite ease-in-out;
+    }
+    .cta-cloud {
+        top: -1rem;
+        filter: drop-shadow(50px 100px 3px rgba(0, 0, 0, 0.25));
+    }
+    .cta-butterfly1 {
+        right: 2rem;
+        top: 7rem;
+        filter: drop-shadow(50px 70px 3px rgba(0, 0, 0, 0.25));
+    }
+    .cta-butterfly2 {
+        left: 1rem;
+        filter: drop-shadow(-50px 70px 3px rgba(0, 0, 0, 0.25));
+    }
+    .background h1 {
+        top: 11rem;
+        font-size: 1.2rem;
+    }
+    .footer-container h1 {
+        font-size: 1.5rem;
+    }
+    .footer-container h3 {
+        font-size: 1rem;
+        font-size: .9rem;
+        margin: 0;
+    }
+    .flower-duck {
+        top: -3.8rem;
+    }
+    .flower-duck img {
+        height: 4rem;
+    }
+    .ft-copyright {
+        padding: 1rem;
+    }
+    .ft-copyright p {
+        font-size: .7rem;
+    }
+}
+
+
+/* IPHONE XS SIZE */
+@media (max-width:376px) {
+    .menu {
+        margin: 4rem 1rem 0rem 5rem;
+    }
+    .menu ul {
+        padding: 0;
+        margin-top: 0;
+    }
+    .menu-links {
+        font-size: 1rem;
+    }
+    
+    .headerImg2 {
+        top: 2rem;
+        left: -2rem;
+    }
+    .name-container {
+        margin: 0 1rem;
+    }
+    .name-container h3 {
+        font-size: 2.5rem;
+        top: -4rem;
+    }
+    .name-container h1 {
+        font-size: 2.5rem;
+    }
+    .name-dot {
+        height: 1rem;
+        width: 1rem;
+    }
+    .name-container p {
+        font-size: .7rem;
+    }
+    .name-container a {
+        font-size: .85rem;
+    }
+    .services-hero {
+        padding: 1rem 0;
+    }
+    .service-item img {
+        height: 25%;
+    }
+    .services-img1, .services-img2, .services-img3 {
+        height: 15%;
+    }
+    .background h1 {
+        top: 8rem;
+    }
+    .flower-duck {
+        top: -3.4rem;
+    }
+    .flower-duck img {
+        height: 3.7rem;
+    }
+    .cta-butterfly1 {
+        top: 11rem;
+    }
+    .cta-butterfly2 {
+        top: 3rem;
+    }
+}

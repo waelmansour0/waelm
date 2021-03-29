@@ -1,0 +1,381 @@
+@import url('/assets/css/components/main.css');
+
+
+.fullpage-header{
+    overflow: hidden;
+}
+
+.fullpage-header img {
+    height: 35%;
+}
+
+.fullpage-header img, .services-section img {
+    position: absolute;
+    object-fit: cover;
+    transition: .5s ease-out;
+}
+
+.services-section img {
+    position: absolute;
+    object-fit: cover;
+    transition: .5s ease-out;
+}
+
+.headerImg2 {
+    top: 7rem;
+    left: -2rem;
+}
+
+.fullpage-header h2 {
+    position: relative;
+    color: #fff;
+    font-size: 10rem;
+}
+
+.shadowLeaf {
+    opacity: .7;
+    height:115%;
+    top: -3rem; left: -6%;
+    transform: scale(-1,-1);
+    pointer-events: none;
+    z-index: 2;
+    -webkit-animation: airLeaf 20s infinite ease-in-out; /* Safari 4+ */
+    -moz-animation:    airLeaf 20s infinite ease-in-out; /* Fx 5+ */
+    -o-animation:      airLeaf 20s infinite ease-in-out; /* Opera 12+ */
+    animation:         airLeaf 20s infinite ease-in-out; /* IE 10+, Fx 29+ */
+}
+
+.name-container {
+    position: relative;
+    text-align: center;
+    font-weight: 100;
+}
+
+.name-container h3 {
+    font-family: 'CarpheScript';
+    font-size: 5rem;
+    font-weight: 100;
+    position: absolute;
+    top: -3rem;
+    left: 0; right: 0;
+    z-index: -1;
+    background: -webkit-linear-gradient(50.89deg, #712816, #fcd46c);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name-container h1 {
+    font-family: 'QuakiezDisplay';
+    font-size: 5rem;
+    margin-bottom: 0;
+    font-weight: 100;
+    /* background: -webkit-linear-gradient(50.89deg, #712816, #fcd46c); */
+    background: -webkit-linear-gradient(50.89deg, #3e344c, #844a5d);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name-container p {
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
+}
+
+.name-dot{
+    height: 2rem;
+    display: inline-block;
+    /* background: #B9436A; */
+    background: linear-gradient(50.89deg, #712816, #B9436A);
+    width: 2rem;
+    border-radius: 5rem;
+}
+
+.name-container a {
+    font-family: 'QuakiezDisplay';
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding: 1rem 2rem;
+    background: linear-gradient(50.89deg, #3e344c, #844a5d);
+    box-shadow: 0px 11px 22px #3e344c8e;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4rem;
+    transition: .5s ease-in-out;
+}
+
+.name-container a:hover {
+    box-shadow: 0px 11px 22px #3e344c;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+/* SECTION 2 */
+.services-section {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.services-section img {
+    z-index: -1;
+}
+
+.services-img {
+    height: 35%;
+}
+
+.shadow-cover {
+    height: 4rem; width: 44%;
+    background: #fdf7e4;
+    position: absolute;
+    top: -2rem; left: 0;
+    border-radius: 0rem 5rem 3rem 1rem;
+    box-shadow: 2px 5px 13px #34343426;
+    display: flex;
+    background-image: url(/assets/images/stitch.jpg);
+    color: #fff;
+    background-size: cover;
+}
+
+.shadow-cover h3 {
+    margin: auto;
+}
+
+.services-container {
+    display: flex;
+    margin: 8rem;
+}
+
+.service-item {
+    margin: 0 5%;
+    position: relative;
+}
+
+.services-container .service-ico {
+    position: relative;
+    height: 5rem;
+    object-fit: cover;
+}
+
+.services-container .service-ink {
+    position: absolute;
+    object-fit: cover;
+    right: 0; left: 0;
+    margin: auto;
+    z-index: -2;
+}
+
+.service-ink {
+    opacity: .7;
+}
+
+.services-img1, .services-img2, .services-img3 {
+    height: 35%;
+}
+.services-img1 {
+    top: 5rem;
+    right: 0;
+}
+.services-img2 {
+    bottom: 5rem;
+    left: -3rem;
+}
+.services-img3 {
+    bottom: -2rem; right: 0rem;
+}
+
+.services-hero {
+    padding: 5rem 0;
+}
+
+.services-hero h1 {
+    font-family: 'Quakiez';
+    font-size: 2rem;
+    width: 75%;
+    margin: auto;
+}
+
+.services-hero h3 {
+    font-family: 'Quakiez';
+    margin: 1rem 0;
+    /* font-size: 1rem; */
+}
+
+.shadow-corner {
+    height: auto; width: 50%;
+    left: 0; top: 0;
+    z-index: 4
+}
+
+
+/* PROJECTS SECTION */
+
+
+.projects-section {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.project-container {
+    display: flex;
+    padding: 1rem 10%;
+    position: relative;
+    width: 100%;
+}
+
+.project-description {
+    width: 50%;
+}
+
+.project-container h3 {
+    padding-top: 2rem;
+    color: #E22664;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.project-container h1 {
+    font-family: 'Quakiez';
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    font-size: 2.1rem;
+}
+
+.project-container p {
+    margin-bottom: 3.5rem;
+    line-height: 2;
+}
+
+.project-img {
+    width: 45%;
+    position: absolute;
+    right: 0rem;
+}
+
+.desk {
+    display: inline;
+}
+.mob {
+    display: none;
+}
+
+.project-container a {
+    background: linear-gradient(50.89deg, #56537e, #6b537e);
+    font-family: 'Quakiez';
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-top: 4rem;
+    transition: .5s ease-in-out;
+}
+
+.project-container a:hover {
+    border-radius: 28px;
+}
+
+
+.project-ink-blot {
+    position: absolute;
+    left: 2rem;
+    top: -3rem;
+    height: 15rem;
+    opacity: 0.7;
+    z-index: -2;
+    mix-blend-mode: multiply;
+}
+
+
+
+/* CTA-SECTION */
+
+.cta-section {
+    height: 75vh;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-top: 3rem;
+}
+
+.cta-container {
+    position: relative;
+    padding: 5rem;
+    text-align: center;
+    width: 100%; height:100%;
+}
+
+.background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    margin-top: 5rem;
+}
+
+.background .cta-water {
+    position: absolute;
+    margin: auto;
+    top: 0rem; left: 0; right: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    /* filter:url("#turbulence"); */
+}
+
+.background a {
+    text-decoration: underline;
+}
+
+.cta-cloud {
+    position: absolute;
+    margin: auto;
+    top: -5rem; left: 0; right: 0;
+    width: 50%; height: 50%;
+    object-fit: contain;
+    z-index: 4;
+    transition: .5s ease-out;
+    pointer-events: none;
+    filter: drop-shadow(100px 200px 3px rgba(0, 0, 0, 0.25));
+    /* -webkit-animation: airCloud 25s infinite ease-in-out; */
+    /* -moz-animation:    airCloud 25s infinite ease-in-out; */
+    /* -o-animation:      airCloud 25s infinite ease-in-out; */
+    /* animation:         airCloud 25s infinite ease-in-out; */
+}
+
+.background h1 {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    /* filter: url("#turbulence"); */
+}
+
+.cta-butterfly1, .cta-butterfly2 {
+    width: 8rem; height:6rem;
+    position: absolute;
+    height: 8rem;
+    width: 10rem;
+    transition: .5s ease-out;
+    z-index: 2;
+    -webkit-animation: butterfly 2s infinite ease-in-out;
+    -moz-animation:    butterfly 2s infinite ease-in-out;
+    -o-animation:      butterfly 2s infinite ease-in-out;
+    animation:         butterfly 2s infinite ease-in-out;
+}
+
+.cta-butterfly1 {
+    width: 10rem; height:8rem;
+    right: 24rem; top: 8rem;
+    filter: drop-shadow(100px 150px 3px rgba(0, 0, 0, 0.25));
+    transform: rotate(38deg);
+}
+
+.cta-butterfly2 {
+    left: 28rem; top: 5rem;
+    filter: drop-shadow(-100px 150px 3px rgba(0, 0, 0, 0.25));
+    transform: rotate(-28deg);
+}
+
