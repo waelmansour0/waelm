@@ -4,9 +4,14 @@ section {
     height: max-content;
 }
 
+.menu-links {
+    color: #ffbec1;
+}
+
 .header-title {
     padding: 10rem 0 5rem 0;
-
+    height: 25rem;
+    background: linear-gradient(50deg,#aa3131,#130108);
 }
 
 .header-title h1 {
@@ -14,7 +19,7 @@ section {
     font-size: 5rem;
     margin: 0;
     font-weight: 100;
-    background: -webkit-linear-gradient(50.89deg, #3e344c, #844a5d);
+    background: -webkit-linear-gradient(50.89deg, #ff9595, #ff0054);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -22,6 +27,7 @@ section {
 
 .header-title p {
     font-size: 1.2rem;
+    color: #ffcbcb;
 }
 
 .project-container {
@@ -81,20 +87,74 @@ section {
     padding-left: 10%;
 }
 
+.description-container a {
+    text-decoration: underline;
+}
+
+.pic-section {
+    height: 25rem;
+    background: linear-gradient(50deg,#aa3131,#130108);
+}
+
+.pic-section img {
+    height: 100%;
+}
 
 .testimonial-section {
     display: block;
     text-align: center;
-    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    margin-bottom: 15rem;
+    /* height: 25rem; */
+    background: linear-gradient(50deg,#aa3131,#130108);
+
 }
 
 .testimonial-section h2 {
-    width: 50%;
+    color: #fff;
+    width: 80%;
     margin: auto;
+    font-size: 1.4rem;
+}
+
+.testimonial-section small {
+    color: #00dee5;
 }
 
 .quote-mark {
     font-size: 8rem;
     margin: 0;
     color: cadetblue;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .project-container h1 {
+        font-size: 3.5rem;
+        margin: 0;
+        margin-bottom: 0rem;
+    }
+
+    .project-container p {
+        font-size: .9rem;
+    }
+    .description-container {
+        display: block;
+        width: 100%;
+    }
+    .description {
+        padding: 2rem 0;
+    }
+    .description-container div {
+        width: 100%;
+        padding: 10%;
+    }
+    .description-container div:nth-child(2) {
+        width: 100%;
+        padding: 10%;
+        padding-top: 0;
+        text-align: center;
+    }
 }

@@ -37,8 +37,11 @@
     color: #fff;
 }
 
-.footer-container h2 {
+.footer-container h3 {
     margin: auto;
+    margin-top: 2rem;
+    color: #171717;
+    font-weight: normal;
 }
 
 .flower-duck {
@@ -47,7 +50,7 @@
     text-align: center;
     justify-content: center;
     width: 100%;
-    top: -7rem;
+    top: -6.7rem;
     z-index: -1;
 }
 

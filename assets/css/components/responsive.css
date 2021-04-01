@@ -42,9 +42,14 @@
         bottom: -2rem; right: 0rem;
         height: 30%;
     }
+    .service-item {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
     .project-img {
-        width: 82%;
+        width: 100%;
         position: relative;
+        border-radius: .5rem;
     }
     .project-container {
         flex-direction: column-reverse;
@@ -61,7 +66,7 @@
         margin-bottom: 0rem;
     }
     .mob {
-        display: inline;
+        display: flex;
     }
     .desk {
         display: none;
@@ -92,6 +97,11 @@
 
     .footer-section {
         height: 20vh;
+    }
+
+    /* SINGLE WORD */
+    .testimonial-section h2 {
+        font-size: 1rem;
     }
 }
 
@@ -163,10 +173,18 @@
         margin-top: 4rem;
     }
     .flower-duck {
-        top: -5.8rem;
+        top: -5.5rem;
     }
     .flower-duck img {
         height: 6rem;
+    }
+
+    /* SINGLE WORK */
+    .testimonial-section {
+        padding-bottom: 1rem;
+    }
+    .quote-mark {
+        font-size: 5rem;
     }
 }
 
@@ -211,14 +229,16 @@
         width: 1.3rem;
     }
     .name-container p {
-        font-size: .8rem;
+        font-size: 1rem;
         font-weight: 300;
+        padding: 0 1rem;
     }
     .name-container a {
-        font-size: .85rem;
+        font-size: 1rem;
     }
     .services-hero {
         padding: 5rem 0;
+        padding-bottom: 0;
     }
     .services-hero h1 {
         font-size: 1.3rem;
@@ -281,13 +301,13 @@
         margin: 0;
     }
     .flower-duck {
-        top: -3.8rem;
+        top: -3.5rem;
     }
     .flower-duck img {
         height: 4rem;
     }
     .ft-copyright {
-        padding: 1rem;
+        padding: .5rem;
     }
     .ft-copyright p {
         font-size: .7rem;
@@ -345,10 +365,13 @@
         top: 8rem;
     }
     .flower-duck {
-        top: -3.4rem;
+        height: 4rem;
+        top: -3.3rem;
+        position: absolute;
+        z-index: -1;
     }
     .flower-duck img {
-        height: 3.7rem;
+        height: 100%;
     }
     .cta-butterfly1 {
         top: 11rem;

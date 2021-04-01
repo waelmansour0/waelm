@@ -16,13 +16,23 @@
     width: 80%;
     margin-bottom: 1rem;
     border-radius: .4rem;
-    border: 2px solid #e2e2e2;
+    /* border: 2px solid #e2e2e2; */
+    border: none;
     font-family: 'Poppins';
-    color: #fff;
     font-weight: 600;
-    background-color: #56537ec4;
+    color: #fff;
+    background-color: #56537e2e;
     cursor: pointer;
     caret-color: #fff;
+    transition: .5s;
+}
+
+.contact-section input:hover, .contact-section textarea:hover {
+    background-color:#56537e63;
+}
+
+.contact-section input:focus, .contact-section textarea:focus {
+    background-color:#56537ec4;
 }
 
 .contact-section textarea{
@@ -82,7 +92,7 @@
     width: 30%;
     transition: .5s ease;
     cursor: pointer;
-    margin: 2rem auto;
+    margin: 2rem .5rem;
 }
 
 .contact-option:hover {
@@ -204,13 +214,13 @@
 /* IPHONE XS MAX SIZE */
 @media (max-width:415px) {
     .mob {
-        display: inline;
+        display: flex;
     }
     .contact-section {
         margin-top: 10rem;
         margin-bottom: 30rem;
     }
-    .contact-detail {
+    .contact-detail, .cryptedmail {
         font-size: .7rem;
     }
     .projects-section {
@@ -242,7 +252,7 @@
     }
     .contact-section label{
         margin-top: 1rem;
-        margin-bottom: 0rem;
+        margin-bottom: .5rem;
     }
     .contact-section textarea{
         font-size: 1rem;

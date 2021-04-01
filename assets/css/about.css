@@ -1,0 +1,88 @@
+@import url('/assets/css/components/main.css');
+
+/* about SECTION */
+.about-section {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+
+.about-title {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 60%;
+}
+
+.about-title h1, .about-title h2 {
+    font-family: 'Quakiez';
+    font-size: 2.1rem;
+    margin: 1rem;
+}
+
+.about-title h2 {
+    line-height: 1.4;
+    text-align: left;
+}
+
+.about-title p {
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.about-title img {
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.about-container {
+    display: flex;
+    padding: 1rem 10%;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.zitat1 {
+    position: relative;
+    line-height: 1.5em;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #950534;
+    /* color: #bdbec0; */
+  }
+  .zitat1 cite {
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: cadetblue;
+    float: right;
+  }
+  .zitat1 cite:before {
+    content: '\2015'' ';
+  }
+  .zitat1:after {
+    content: '\201d';
+    position: absolute;
+    top: 0.28em;
+    right: 0px;
+    font-size: 6em;
+    font-style: italic;
+    color: cadetblue;
+    z-index: -1;
+  }
+
+/* IPAD MINI SIZE */
+@media (max-width:768px) {
+    .about-title {
+        text-align: left;
+        width: 90%;
+    }
+    .about-title h2 {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+}
