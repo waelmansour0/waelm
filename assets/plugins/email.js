@@ -8,7 +8,7 @@ function validateForm(theForm) {
     if (reason != "") {
         alert("Some fields need correction:\n" + reason);
     } else {
-        sendMail();
+        sendMail(theForm.fullname.value, theForm.phone.value, theForm.email.value, theForm.message.value);
     }
     return false;
 }
@@ -39,18 +39,20 @@ function validateMessage(x) {
     return ""
 }
 
-function sendMail() {
-    console.log("button")
-    
-    // Email.send({
-    //     SecureToken: "e940e40e-9733-46a8-b25e-69e2bde804f0",
-    //     To: 'hello@waelm.com',
-    //     From: "hello@waelm.net",
-    //     Subject: "This is the subject",
-    //     Body: "And this is the body"
-    // }).then(
-    //     message => feed(message)
-    // );
+function sendMail(fullname, phone, email, message) {
+    Email.send({
+        SecureToken: "e940e40e-9733-46a8-b25e-69e2bde804f0",
+        To: 'hello@waelm.net',
+        From: "hello@waelm.net",
+        Subject: "This is the subject",
+        Body: `"From: ${fullname}\n
+        Phone number: ${phone}\n
+        Email address: ${email}\n\n
+        message:\n
+        ${message}"`
+    }).then(
+        message => feed(message)
+    );
 };
 
 function feed(m) {
