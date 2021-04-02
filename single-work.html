@@ -7,6 +7,9 @@
     <link rel="icon" type="image/png" href="assets/icons/favicon.png"/>
     <meta name="description" content="Web designer in Dubai UAE with elegantly crafted designs to inspire your online identity. Build a personal or business website, blog, app or landing page"/>
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+    <link rel="stylesheet" href="assets/css/single-work.css">
+    <link rel="stylesheet" href="assets/css/components/responsive.css">
 </head>
 <body>
     <div class="menu-container">
@@ -101,28 +104,6 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/75029767" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-        var links = ["/assets/css/single-work.css", "/assets/css/components/responsive.css"]
-        var headElement = document.getElementsByTagName("head")[0];
-        for (var i = 0; i < links.length; i++) {
-            var linkElement = document.createElement("link");
-            linkElement.href = links[i];
-            linkElement.rel = "stylesheet";
-            headElement.appendChild(linkElement);
-        }
-  
-  
-        var scripts = ["/assets/js/function.js", "/assets/plugins/lazysizes.min.js"]
-        var headElement = document.getElementsByTagName("head")[0];
-        for (var i = 0; i < scripts.length; i++) {
-            linkElement = document.createElement("script");
-            linkElement.src = scripts[i];
-            headElement.appendChild(linkElement);
-        }
-      });
-    </script>
-    <script src="assets/plugins/lazysizes.min.js" async></script>
-    <script src="assets/js/function.js"></script>
+    <script src="assets/js/cssPreload.js" async></script>
 </body>
 </html>

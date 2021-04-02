@@ -37,19 +37,4 @@ function parallaxButterfly(e) {
     }
 }
 
-// function sendEmail() {
-//     Email.send({
-//         Host : "smtp.googlemail.com",
-//         Username : "username",
-//         Password : "password",
-//         To : 'them@website.com',
-//         From : "you@isp.com",
-//         Subject : "This is the subject",
-//         Body : "And this is the body"
-//     }).then(
-//       message => alert(message)
-//     );
-// }
-
-
 document.getElementById("year").textContent = new Date().getFullYear();

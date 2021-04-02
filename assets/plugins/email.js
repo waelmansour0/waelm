@@ -58,5 +58,6 @@ function sendMail(fullname, phone, email, message) {
 function feed(m) {
     if (m === "ok" || m === "OK" || m === "Ok") {
         alert("Thanks for your message! Will reply to you soon.")
+        window.location.href = "/index.html";
     }
 }

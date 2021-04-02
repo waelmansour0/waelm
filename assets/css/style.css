@@ -154,6 +154,7 @@
 }
 
 .services-container .service-ico {
+    width: 5rem;
     position: relative;
     height: 5rem;
     object-fit: cover;
