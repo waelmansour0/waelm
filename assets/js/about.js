@@ -1,6 +1,6 @@
-document.querySelector(".wael-sound").addEventListener('click', function () {
-    playSound()
-});
+// document.querySelector(".wael-sound").addEventListener('click', function () {
+//     playSound()
+// });
 
 function playSound() {
     var audio = new Audio("assets/sounds/tom-1.mp3");

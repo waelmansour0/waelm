@@ -9,6 +9,7 @@ section {
 }
 
 .header-title {
+    overflow: hidden;
     padding: 10rem 0 5rem 0;
     height: 25rem;
     background: linear-gradient(50deg,#aa3131,#130108);
