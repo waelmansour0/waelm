@@ -20,18 +20,3 @@ textarea.onchange = function () {
         textarea.style.backgroundColor = '#56537e2e';
     }
 };
-
-
-function sendEmail() {
-    Email.send({
-        Host : "smtp.googlemail.com",
-        Username : "username",
-        Password : "password",
-        To : 'them@website.com',
-        From : "you@isp.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
