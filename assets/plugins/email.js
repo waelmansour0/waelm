@@ -27,13 +27,13 @@ function validatePhone(x) {
     return ""
 }
 function validateEmail(x) {
-    if (x.length < 4) {
-        return "Please type your email\n"
+    if (x.length < 6 && x.length != 0) {
+        return "Please provide your email\n"
     }
     return ""
 }
 function validateMessage(x) {
-    if (x.length < 10) {
+    if (x.length < 10 && x.length != 0) {
         return "I enjoy reading from you...please type more into Message\n"
     }
     return ""
@@ -42,14 +42,14 @@ function validateMessage(x) {
 function sendMail(fullname, phone, email, message) {
     Email.send({
         SecureToken: "e940e40e-9733-46a8-b25e-69e2bde804f0",
-        To: 'hello@waelm.net',
+        To: 'wr.samrra@gmail.com',
         From: "hello@waelm.net",
         Subject: "This is the subject",
-        Body: `"From: ${fullname}\n
-        Phone number: ${phone}\n
-        Email address: ${email}\n\n
-        message:\n
-        ${message}"`
+        Body: (`<b>From:</b> ${fullname} <br>
+<b>Phone number:</b> <a href="tel:${phone}">${phone}</a> <br>
+<b>Email address:</b> <a href="mailto:${email}">${email}</a> <br>
+<b>message:</b><br>
+${message}`)
     }).then(
         message => feed(message)
     );
