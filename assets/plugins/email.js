@@ -47,8 +47,8 @@ function sendMail(fullname, phone, email, message) {
         Subject: "This is the subject",
         Body: (`<b>From:</b> ${fullname} <br>
 <b>Phone number:</b> <a href="tel:${phone}">${phone}</a> <br>
-<b>Email address:</b> <a href="mailto:${email}">${email}</a> <br>
-<b>message:</b><br>
+<b>Email address:</b> <a href="mailto:${email}">${email}</a> <br><br>
+<b>Message:</b><br>
 ${message}`)
     }).then(
         message => feed(message)
